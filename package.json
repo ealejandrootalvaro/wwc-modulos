@@ -1,0 +1,23 @@
+{
+  "name": "women-who-code-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial para el curso Javascript FromZeroToHero",
+  "main": "index.js",
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Edwin Otalvaro",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "is-odd": "^3.0.1"
+  },
+  "devDependencies": {
+    "http-server": "^13.0.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.8.0"
+  }
+}

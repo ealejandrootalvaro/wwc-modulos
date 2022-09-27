@@ -10,7 +10,7 @@
   "license": "ISC",
   "scripts": {
     "build": "webpack",
-    "start": "node dist/main.js"
+    "start": "npm run build && node dist/main.js"
   },
   "dependencies": {
     "is-odd": "^3.0.1"
